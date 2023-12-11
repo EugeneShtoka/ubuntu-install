@@ -1,0 +1,10 @@
+
+auto-sync-scripts() {
+  inotifywait -q -r -e DELETE,CLOSE_WRITE ~/.zshrc ~/.zshfn ~/.scripts | while read -r dir event filename; do
+    # Execute the action script
+    echo "$event $dir$filename"
+    push-custom-scripts
+  done
+}
+
+auto-sync-scripts
