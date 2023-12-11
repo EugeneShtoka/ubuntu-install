@@ -4,6 +4,7 @@ auto-sync-scripts() {
     # Execute the action script
     echo "$event $dir$filename"
   done
+  sleep 10
   push-custom-scripts
   auto-sync-scripts
 }
