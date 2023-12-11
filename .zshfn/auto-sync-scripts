@@ -5,6 +5,7 @@ auto-sync-scripts() {
     echo "$event $dir$filename"
     push-custom-scripts
   done
+  auto-sync-scripts
 }
 
 auto-sync-scripts

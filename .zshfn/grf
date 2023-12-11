@@ -1,0 +1,5 @@
+grf() {
+	git checkout master -- $1;
+}
+
+grf $1
