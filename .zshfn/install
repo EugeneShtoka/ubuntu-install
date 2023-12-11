@@ -1,6 +1,8 @@
 install() {
   sudo apt install curl -y
 
+  sudo apt install gedit -y
+
   sudo apt install geary -y
 
   sudo apt install inotify-tools -y
@@ -10,6 +12,8 @@ install() {
   sudo apt install gh -y
 
   sudo apt install glab -y
+  
+  sudo apt install gnome-shell-extensions -y
 
   sudo snap install slack
 
@@ -18,6 +22,8 @@ install() {
   sudo snap install atom --classic
 
   sudo snap install code --classic
+
+  gh auth login
 
   curl -L https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.16/obsidian_1.4.16_amd64.snap -o obsidian.snap
   snap install obsidian.snap --dangerous --classic

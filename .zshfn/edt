@@ -1,0 +1,5 @@
+edt() {
+	setsid gedit $1 &>/dev/null
+}
+
+edt $1
