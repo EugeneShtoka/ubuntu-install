@@ -3,4 +3,4 @@ on-start-up() {
 	auto-sync-scripts
 }
 
-on-start-up()
+on-start-up
