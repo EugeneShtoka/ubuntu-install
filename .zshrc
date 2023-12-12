@@ -78,7 +78,7 @@ source ~/.zsh-git-prompt/zshrc.sh
 GIT_PROMPT_EXECUTABLE='haskell'
 
 PROMPT='%B%~%b$(git_super_status) '
-h
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -108,5 +108,5 @@ h
 fpath=(~/.zshfn $fpath);
 autoload -Uz $fpath[1]/*(.:t);
 
-setsid on-start-up &>/dev/null
+fpath=($(yarn global bin) $fpath);
 
