@@ -1,3 +1,5 @@
-#!/bin/bash
+obsidian-load() {
+    bash ~/.scripts/obsidian-pull.sh
+}
 
-bash ~/.scripts/obsidian-pull.sh
+obsidian-load;
