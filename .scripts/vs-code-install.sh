@@ -1,6 +1,6 @@
   #!/bin/bash
 
-  sudo snap install code --classic
+sudo snap install code --classic
+sudo apt install yarn
 
-  bash ~/.scripts/yarn-install.sh
-  bash ~/.scripts/dot-net-install.sh
+bash ~/.scripts/dot-net-install.sh
