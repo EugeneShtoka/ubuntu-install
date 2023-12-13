@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf ~/Documents/Obsidian
+git reset --hard
 git pull git@github.com:EugeneShtoka/Obsidian.git main
