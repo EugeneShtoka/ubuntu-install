@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bash ~/.scripts/obsidian-pull.sh
+setsid bash ~/.scripts/obsidian-pull.sh &>/dev/null
