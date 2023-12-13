@@ -1,1 +1,5 @@
-pkill vlc
+stop() {
+    pkill vlc
+}
+
+stop;
