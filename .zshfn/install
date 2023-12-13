@@ -25,7 +25,5 @@ install() {
 
   bash ~/.scripts/obsidian-install.sh
 
-  curl -fsSL https://get.docker.com -o get-docker.sh
-  sudo sh get-docker.sh
-  rm get-docker.sh
+  bash ~/.scripts/docker-install.sh
 }
