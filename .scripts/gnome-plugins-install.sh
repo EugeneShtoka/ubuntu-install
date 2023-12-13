@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install gnome-shell-extensions -y
 array=( 
 	https://extensions.gnome.org/extension/3843/just-perfection/
 )
