@@ -1,5 +1,3 @@
-ops() {
-  rclone sync ~/Documents/Obsidian private:Eugene/Obsidian
-}
+#!/bin/bash
 
-ops
+rclone sync ~/Documents/Obsidian private:Eugene/Obsidian
