@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rclone sync ~/Documents/Obsidian private:Eugene/Obsidian --exclude ".git/** .trash/** .gitignore"
+rclone sync ~/Documents/Obsidian private:Eugene/Obsidian --exclude '/{.zoom,.cache}/**' --exclude .gitignore
