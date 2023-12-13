@@ -11,8 +11,6 @@ install() {
 
   sudo apt install glab -y
   
-  sudo apt install gnome-shell-extensions -y
-
   sudo snap install slack
 
   sudo snap install morgen
