@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bash ~/.scripts/pull-custom-scripts.sh
+bash ~/.scripts/custom-scripts-pull.sh
 sleep 5
 bash ~/.scripts/auto-sync-scripts.sh
