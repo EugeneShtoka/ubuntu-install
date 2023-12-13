@@ -23,5 +23,5 @@ install() {
 
   bash ~/.scripts/docker-install.sh
 
-  bash ~/.scripts/obsidian-install.sh
+  bash ~/.scripts/vs-code-install.sh
 }
