@@ -17,7 +17,7 @@ install() {
 
   sudo snap install atom --classic
 
-  sudo snap install code --classic
+
 
   gh auth login
 
