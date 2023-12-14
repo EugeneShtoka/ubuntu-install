@@ -20,10 +20,7 @@ git pull git@github.com:EugeneShtoka/ubuntu-install.git main
 git fetch
 git branch main --set-upstream-to origin/main
 
-rm LICENSE
-rm README.md
-git update-index --assume-unchanged README.md
-git update-index --assume-unchanged LICENSE
+bash ~/.scripts/custom-scripts-delete-license-and-readme.sh
 
 sudo apt install curl -y
 sudo apt install zsh -y
