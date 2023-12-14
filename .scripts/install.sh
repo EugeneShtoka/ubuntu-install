@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install git -y
 
+cd ~
 rm -rf .git
 rm -rf .zshfn
 rm -rf .scripts
