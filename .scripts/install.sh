@@ -33,3 +33,4 @@ rm -rf ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 bash ~/.scripts/gnome-plugins-install.sh
+bash ~/.scripts/app-install.sh
