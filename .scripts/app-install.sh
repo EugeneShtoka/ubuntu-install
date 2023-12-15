@@ -1,31 +1,32 @@
-install() {
-  sudo apt install curl -y
+#!/bin/bash
 
-  sudo apt install geary -y
+sudo apt install curl -y
 
-  sudo apt install inotify-tools -y
+sudo apt install geary -y
 
-  sudo apt install qbittorrent -y
+sudo apt install inotify-tools -y
 
-  sudo apt install gh -y
+sudo apt install qbittorrent -y
 
-  sudo apt install glab -y
+sudo apt install gh -y
 
-  sudo apt install sxhkd -y
+sudo apt install glab -y
 
-  sudo apt install xdotool -y
+sudo apt install sxhkd -y
 
-  sudo snap install slack
+sudo apt install xdotool -y
 
-  sudo snap install morgen
+sudo snap install slack
 
-  sudo snap install atom --classic
+sudo snap install morgen
 
-  gh auth login
+sudo snap install atom --classic
 
-  bash ~/.scripts/obsidian-install.sh
+gh auth login
 
-  bash ~/.scripts/docker-install.sh
+bash ~/.scripts/obsidian-install.sh
 
-  bash ~/.scripts/vs-code-install.sh
-}
+bash ~/.scripts/docker-install.sh
+
+bash ~/.scripts/vs-code-install.sh
+
