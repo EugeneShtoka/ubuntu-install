@@ -13,6 +13,8 @@ install() {
 
   sudo apt install sxhkd -y
 
+  sudo apt install xdotool -y
+
   sudo snap install slack
 
   sudo snap install morgen
