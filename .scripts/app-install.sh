@@ -10,7 +10,9 @@ install() {
   sudo apt install gh -y
 
   sudo apt install glab -y
-  
+
+  sudo apt install sxhkd -y
+
   sudo snap install slack
 
   sudo snap install morgen
