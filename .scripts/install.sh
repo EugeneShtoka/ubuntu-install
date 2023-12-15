@@ -9,6 +9,7 @@ rm -rf .zshfn
 rm -rf .scripts
 rm .zshrc
 rm .config/geary/user-style.css
+rm .config/sxhkd/sxhkdrc
 rm .gitignore
 rm LICENSE
 rm README.md
